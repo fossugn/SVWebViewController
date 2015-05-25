@@ -2,6 +2,11 @@
 
 SVWebViewController is a simple inline browser for your iOS 7 app.
 
+**Current fork features:**
+
+* Made confirmation of `UIWebViewDelegate` protocol public. This can be applied for using polymorphism to override `- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error;` and have ability to call `super`
+
+
 ![SVWebViewController](http://cl.ly/SQVO/download/GitHub.png)
 
 **SVWebViewController features:**
