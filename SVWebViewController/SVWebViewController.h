@@ -6,7 +6,7 @@
 //
 //  https://github.com/samvermette/SVWebViewController
 
-@interface SVWebViewController : UIViewController
+@interface SVWebViewController : UIViewController <UIWebViewDelegate>
 
 - (instancetype)initWithAddress:(NSString*)urlString;
 - (instancetype)initWithURL:(NSURL*)URL;
